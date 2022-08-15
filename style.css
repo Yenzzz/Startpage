@@ -47,6 +47,11 @@ h2 {
   flex-direction: row;
   justify-content: space-around;
   align-items: flex-end;
+  
+  padding-top: 50px;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .flexbox-item-1 {
