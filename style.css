@@ -1,8 +1,7 @@
-* {
-  margin: 0px;
-}
 
 body {
+  margin: 0px;
+  padding: 0px;
   background-image: url(wallpaper4.jpg);
   background-size: cover;
 
