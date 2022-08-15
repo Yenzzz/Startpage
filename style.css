@@ -1,5 +1,11 @@
+* {
+  margin: 0px;
+}
+
 body {
   background-image: url(wallpaper3.jpg);
+  width: 2560;
+  height: 1440;
 
   font-family: "EB Garamond", serif;
   font-weight: bold;
