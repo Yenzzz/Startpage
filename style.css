@@ -1,9 +1,7 @@
-* {
+body {
   margin: 0px;
   padding: 0px;
-}
-
-body {
+  
   background-image: url(wallpaper4.jpg);
   background-repeat: no-repeat;
   background-position: center;
