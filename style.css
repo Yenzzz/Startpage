@@ -1,7 +1,9 @@
-body {
+* {
   margin: 0px;
-  padding: 1px;
-  
+  padding: 0px;
+}
+
+body {
   background-image: url(wallpaper4.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -75,7 +77,6 @@ h2 {
   border-color: #7c4455;
   border-radius: 40px;
 
-  padding-top: 20px;
   margin-top: 30px;
   margin-bottom: 80px;
 }
@@ -131,12 +132,13 @@ h2 {
 }
 
 .sources {
+  min-height: 150px;
+
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  column-gap: 50px;
 
   padding-top: 5px;
 
@@ -217,4 +219,55 @@ h2 {
 
   position: relative;
   margin-left: 150px;
+}
+
+.blenderbox {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+
+  justify-content: center;
+
+  width: 100%;
+}
+
+.grid-container2 {
+  width: 70%;
+  min-height: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  background-color: #252525;
+
+  border-style: groove;
+  border-width: 0px 5px 5px 0px;
+  border-color: #7c4455;
+  border-radius: 40px;
+
+  margin-top: 30px;
+  margin-bottom: 80px;
+  margin-left: 0%;
+  margin-right: 0%;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container2:hover {
+  transform: scale(1.05);
+  transition: 600ms;
+}
+
+#carouselExampleControls {
+  justify-content: center;
+}
+
+.carousel-inner {
+  justify-content: center;
 }
