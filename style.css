@@ -320,4 +320,11 @@ h2 {
 .nav-link:hover {
   color: #dd5b82;
 }
+.navbar-toggler {
+}
 
+.navbar-toggler-icon {
+  outline-style: dashed;
+  outline-color: #c69b7b;
+  border-radius: 70%;
+}
