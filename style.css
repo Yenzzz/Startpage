@@ -17,20 +17,28 @@ body {
 
 .navbar-brand {
   font-family: "Sacramento";
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 900;
+  color: #d1af94;
+}
+
+.navbar-brand:hover {
   color: #d1af94;
 }
 
 #navbar {
   height: 80px;
 
+  font-family: "EB Garamond", serif;
+  color: #d1af94;
+  font-weight: 600;
+
   padding-right: 50px;
   padding-left: 150px;
 }
 
 h1 {
-  font-family: "Sacramento", cursive;
+  font-family: "EB Garamond", serif;
   color: #c69b7b;
   font-size: 100px;
   font-weight: 900;
@@ -49,10 +57,10 @@ h2 {
 
 .container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  text-align: center;
 
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 200px;
 }
 
 .flexbox-container {
@@ -64,7 +72,6 @@ h2 {
   text-align: center;
 
   padding-top: 50px;
-  margin-top: 300px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -75,7 +82,7 @@ h2 {
 }
 
 .grid-container {
-  width: 800px;
+  width: 700px;
   min-height: 350px;
 
   display: flex;
@@ -91,8 +98,8 @@ h2 {
   border-color: #7c4455;
   border-radius: 40px;
 
-  margin-top: 30px;
-  margin-bottom: 80px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .container2 {
@@ -111,7 +118,7 @@ h2 {
 
 .flexbox-item-1 {
   margin-top: 50px;
-  width: 350px;
+  width: 300px;
   height: 400px;
 
   background-color: #252525;
@@ -129,7 +136,7 @@ h2 {
 
 .flexbox-item-2 {
   margin-top: 50px;
-  width: 350px;
+  width: 300px;
   height: 400px;
 
   background-color: #252525;
@@ -146,7 +153,7 @@ h2 {
 }
 
 .sources {
-  min-height: 150px;
+  min-height: 100px;
 
   display: flex;
   flex-wrap: wrap;
@@ -265,7 +272,7 @@ h2 {
   border-radius: 40px;
 
   margin-top: 30px;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
   margin-left: 0%;
   margin-right: 0%;
 
@@ -289,6 +296,7 @@ h2 {
 .col-lg-10 {
   padding-top: 10px;
 }
+
 .nav-link {
   color: #d1af94;
 }
@@ -303,6 +311,7 @@ h2 {
 }
 
 .dropdown-menu {
+  color: #d1af94;
   padding: 0% 0%;
 }
 
@@ -313,14 +322,11 @@ h2 {
 
 .dropdown-item:hover {
   color: #dd5b82;
-
   background-color: #252525;
 }
 
 .nav-link:hover {
   color: #dd5b82;
-}
-.navbar-toggler {
 }
 
 .navbar-toggler-icon {
@@ -328,3 +334,82 @@ h2 {
   outline-color: #c69b7b;
   border-radius: 70%;
 }
+
+.engine {
+  display: inline;
+  justify-content: center;
+  text-align: center;
+
+  padding-top: 200px;
+}
+
+option {
+  font-family: "EB Garamond", serif;
+  color: #d1af94;
+  font-weight: 600;
+  background-color: #252525;
+  border: solid 2px;
+}
+
+select {
+  height: 43.5px;
+  font-family: "EB Garamond", serif;
+  color: #d1af94;
+  font-weight: 600;
+  background-color: transparent;
+  text-align: center;
+
+  border: solid 2px;
+  border-color: #d1af94;
+  border-radius: 10px 0 0 10px;
+  padding: 5px;
+  margin-right: -1px;
+}
+
+input {
+  width: 30%;
+  background-color: transparent;
+
+  font-family: "EB Garamond", serif;
+  color: #d1af94;
+  font-weight: 600;
+
+  border: solid 2px;
+  border-color: #d1af94;
+  border-radius: 0;
+  padding: 5px;
+}
+
+button {
+  font-family: "EB Garamond", serif;
+  color: #d1af94;
+  font-weight: 600;
+  background-color: transparent;
+
+  border: solid 2px;
+  border-color: #d1af94;
+  border-radius: 0 10px 10px 0;
+  padding: 5px;
+  margin-left: -5px;
+}
+
+form {
+  display: inline;
+}
+
+.select-engine:hover {
+  color: #dd5b82;
+}
+
+option:hover {
+  color: #dd5b82;
+}
+
+.click-search:hover {
+  color: #dd5b82;
+}
+
+.clock {
+  font-size: 3rem;
+}
+
