@@ -72,59 +72,82 @@
       </div>
     </section>
 
-    <!-- Content -->
+   <!-- Namepage -->
 
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="heading">
-          <h1>Spiral</h1>
-        </div>
-      </div>
-    </div>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="greetingheader">
+					<h1 id="greeting"></h1>
+				</div>
+				<div class="clock">
+					<span class="time"></span>
+					<span class="ampm"></span>
+				</div>
+			</div>
+		</div>
 
-    <div class="flexbox-container">
-      <div class="flexbox-item flexbox-item-1">
-        <h2>Gaming</h2>
-        <a class="pic" href="LostArk.html"><img src="koko.png" /></a>
-        <a class="pic" href="bdo.html"><img src="bdo.png" /></a>
-      </div>
+		<!-- Search Engine -->
 
-      <div class="flexbox-item flexbox-item-2">
-        <h2>Art Platforms</h2>
-        <a class="pic" href="Blender.html"><img src="blender.png" /></a>
-        <a class="pic" href="Procreate.html"><img src="procreate.png" /></a>
-        <a class="pic" href="https://hub.vroid.com/en/users/82527596"><img src="vroid.png" /></a>
-      </div>
-    </div>
+		<div class="engine">
+			<div class="input">
+				<select class="select-engine" name="searchengine" id="search">
+					<option class="option-engine" value="duck">&#129414 Duckduckgo</option>
+					<option class="option-engine" value="google">Google</option>
 
-    <div class="box2">
-      <div class="grid-container">
-        <div class="container2">
-          <div class="row justify-content-center">
-            <div class="heading">
-              <h2>Web Dev Sources</h2>
-            </div>
-          </div>
-        </div>
+					<label for="duck">Duckduckgo</label>
+					<input type="text" id="duck" name="duck" autofocus="true">
+					<button class="click-search">Search</button>
+				</select>
+			</div>
+		</div>
 
-        <div class="sources">
-          <a class="links" href="https://docs.emmet.io/cheat-sheet/">HTML Cheat Sheet</a>
-          <a class="links" href="https://colorhunt.co/palette/dfddc7f58b54a34a28211717">Color Code Pallettes</a>
-          <a class="links" href="https://unicode-table.com/en/search/?q=star">Unicode Table</a>
-          <a class="links" href="https://codepen.io/pen/?editors=1000">Codepen</a>
-        </div>
+		<div class="flexbox-container">
+			<!-- Box 1 -->
 
-        <div class="sources">
-          <a class="links" href="Udemy.html">Udemy Resources</a>
-          <a class="links" href="https://wallpapersden.com/">Wallpapers Den</a>
-          <a
-            class="links"
-            href="https://fonts.google.com/?category=Handwriting&preview.text=Gaming&preview.text_type=custom"
-            >Font Styles</a
-          >
-          <a class="links" href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">Bootstrap</a>
-        </div>
-      </div>
-    </div>
-  </body>
+			<div class="flexbox-item flexbox-item-1">
+				<h2>Gaming</h2>
+				<a class="pic" href="LostArk.html"><img src="koko.png" /></a>
+				<a class="pic" href="bdo.html"><img src="bdo.png" /></a>
+			</div>
+
+			<!-- Box 2 -->
+
+			<div class="flexbox-item flexbox-item-2">
+				<h2>Art Platforms</h2>
+				<a class="pic" href="Blender.html"><img src="blender.png" /></a>
+				<a class="pic" href="Procreate.html"><img src="procreate.png" /></a>
+				<a class="pic" href="https://hub.vroid.com/en/users/82527596"><img
+						src="vroid.png" /></a>
+			</div>
+		</div>
+
+		<!-- Box 3 -->
+
+		<div class="box2">
+			<div class="grid-container">
+				<div class="container2">
+					<div class="row justify-content-center">
+						<div class="heading">
+							<h2>Sources</h2>
+							<a class="links" href="webdev.html">Webdev Help</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="sources">
+
+
+				</div>
+
+				<div class="sources">
+
+
+				</div>
+			</div>
+		</div>
+
+		<!-- End of box 3 -->
+		<script src="scripts/script.js"></script>
+	</body>
+
 </html>
